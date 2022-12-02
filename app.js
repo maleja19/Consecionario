@@ -72,17 +72,7 @@ let concesionaria = {
       let listcarros=carro.filter((carro)=>(this.puedeComprar(carro,persona)==true))
 
       return listcarros
-      
-      /*let listAutos=[]
-      for(i=0;i<carro.length;i++){
          
-         if(this.puedeComprar(carro[i],persona)==true){
-         
-            listAutos.push(carro[i])
-         }
-      }          
-   return */
-   
    }
 
 
